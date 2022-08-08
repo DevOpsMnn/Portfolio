@@ -1,3 +1,32 @@
 * {
   background-color: #1F2937;
+  font-family: roboto;
+}
+
+.header {
+  color:white;
+  font-weight: bold;
+  margin:0 10%;
+  display:flex;
+}
+
+.header H3 {
+  display:flex;
+  align-self:flex-start;
+  flex:1;
+  color:#F9FAF8;
+  font-size: 24px;
+}
+
+.headerLinks {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.headerLinks p {
+  margin:0 5px;
+  font-size: 18px;
+  color:#E5E7EB;
+  font-weight: 300;
 }
