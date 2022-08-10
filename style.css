@@ -123,3 +123,21 @@ body {
   width: 150px;
   height: 150px;
 }
+
+/*Quote Styling*/
+
+.quote {
+  padding: 2em 8em;
+  font-size: 36px;
+  font-style: italic;
+  color:#1F2937;
+  background-color: #E5E7EB;
+  font-weight: 300;
+}
+
+.quote H5 {
+  margin:1em;
+  font-style:normal;
+  display:flex;
+  justify-content: flex-end;
+}
