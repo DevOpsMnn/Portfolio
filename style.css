@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -7,7 +7,7 @@
 body {
   max-width: 1490px;
   background-color: #17191b;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 /* Header styling */
@@ -47,7 +47,7 @@ body {
 .hero {
   padding: 70px 10%;
   background-color: #1f2937;
-  display:flex;
+  display: flex;
   height: 350px;
   align-items: center;
 }
@@ -60,37 +60,37 @@ body {
 .hero H1 {
   font-size: 48px;
   font-weight: bolder;
-  color:#F9FAF8;
+  color: #f9faf8;
 }
 
 .hero P {
   font-size: 18px;
-  color:#E5E7EB;
-  margin:15px 0;
+  color: #e5e7eb;
+  margin: 15px 0;
 }
 
 .hero button {
-  background-color: #3882F6;
-  padding:10px 40px;
-  color:#F9FAF8;
+  background-color: #3882f6;
+  padding: 10px 40px;
+  color: #f9faf8;
   font-size: 18px;
   font-weight: bold;
-  border:none;
+  border: none;
   border-radius: 10px;
 }
 
 .placeholderImage {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   background-color: grey;
   height: 100%;
-  width:50%;
+  width: 50%;
 }
 
 /* Random Info Styling */
 .randomInfo {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -103,22 +103,22 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-wrap:wrap;
-  margin:2em;
+  flex-wrap: wrap;
+  margin: 2em;
 }
 
 .randomCards {
-  Display:flex;
+  display: flex;
   justify-content: center;
 }
 
 .randomInfo H2 {
-  display:flex;
+  display: flex;
   margin-bottom: 1em;
 }
 
 .randomImg {
-  border: 3px solid #3882F6;
+  border: 3px solid #3882f6;
   border-radius: 20px;
   width: 150px;
   height: 150px;
@@ -130,14 +130,49 @@ body {
   padding: 2em 8em;
   font-size: 36px;
   font-style: italic;
-  color:#1F2937;
-  background-color: #E5E7EB;
+  color: #1f2937;
+  background-color: #e5e7eb;
   font-weight: 300;
 }
 
 .quote H5 {
-  margin:1em;
-  font-style:normal;
+  margin: 1em;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* call to action styling */
+
+.action {
+  color:#FFFFFF;
+  padding: 4em 8em;
+  background-color: #ffffff;
+}
+
+.filling {
+  background-color: #3882f6;
+  padding: 2em;
+  display:flex;
+  border-radius:5px;
+}
+
+.fillingLeft {
+  display: flex;
+  flex-direction: column;
+  min-width: 80%;
+}
+
+.right {
   display:flex;
   justify-content: flex-end;
+} 
+
+.right button {
+  color:#FFFFFF;
+  border:1px solid #FFFFFF;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding:0.1em 2em;
 }
