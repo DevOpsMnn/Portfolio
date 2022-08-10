@@ -176,3 +176,15 @@ body {
   border-radius: 5px;
   padding:0.1em 2em;
 }
+
+/* Footer styling */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1f2937;
+  height: 60px;
+  color:#FFFFFF;
+  font-size: 14px;
+}
